@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #222;
+  color: white;
+  font-family: sans-serif;
+}
+
+canvas {
+  background: #000;
+  border: 2px solid white;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.restart {
+  margin-top: 10px;
+  background: orange;
+}
